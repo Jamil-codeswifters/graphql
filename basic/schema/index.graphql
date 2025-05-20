@@ -1,0 +1,9 @@
+# schema/index.graphql
+type Query {
+  users: [User!]!
+  todos: [Todo!]!
+  getByIdTodo(id: ID!): Todo
+}
+
+type User { … }
+type Todo { … }

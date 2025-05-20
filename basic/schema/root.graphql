@@ -1,0 +1,8 @@
+type Query {
+  _empty: String
+}
+
+# optionally, if you plan mutations:
+type Mutation {
+  _empty: String
+}

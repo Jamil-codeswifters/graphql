@@ -1,0 +1,11 @@
+# schema/todo.graphql
+extend type Query {
+  todos: [Todo!]!
+  getByIdTodo(id: ID!): Todo
+}
+
+type Todo {
+  id: ID!
+  title: String!
+  completed: Boolean!
+}
